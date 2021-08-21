@@ -18,9 +18,9 @@ function MainStackNavigator() {
           headerShown: false,
           tabBarShowLabel: false,
           tabBarHideOnKeyboard: true,
-          tabBarStyle: { backgroundColor: "#7579E7" },
-          tabBarActiveTintColor: "#9AB3F5",
-          tabBarInactiveTintColor: "#B9FFFC",
+          tabBarStyle: { backgroundColor: "#BDF2D5" },
+          tabBarActiveTintColor: "#CCA8E9",
+          tabBarInactiveTintColor: "#CADEFC",
         }}
       >
         <Tab.Screen
@@ -46,7 +46,7 @@ function MainStackNavigator() {
           component={UploadStack}
           options={{
             tabBarIcon: ({ color }) => (
-              <Icon name="arrow-circle-up" color={color} size={30} />
+              <Icon name="plus-square" color={color} size={30} />
             ),
           }}
         />

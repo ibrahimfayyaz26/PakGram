@@ -9,7 +9,7 @@ const UserStack = () => {
     <Stack.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: "#7579E7",
+          backgroundColor: "#BDF2D5",
         },
       }}
     >
