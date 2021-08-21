@@ -18,8 +18,8 @@ function MainStackNavigator() {
           headerShown: false,
           tabBarShowLabel: false,
           tabBarHideOnKeyboard: true,
-          tabBarStyle: { backgroundColor: "#BDF2D5" },
-          tabBarActiveTintColor: "#CCA8E9",
+          tabBarStyle: { backgroundColor: "#ffffff" },
+          tabBarActiveTintColor: "green",
           tabBarInactiveTintColor: "#CADEFC",
         }}
       >

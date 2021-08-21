@@ -9,7 +9,7 @@ const HomeStack = () => {
     <Stack.Navigator
       screenOptions={{
         headerStyle: {
-          backgroundColor: "#BDF2D5",
+          backgroundColor: "#ffffff",
         },
       }}
     >
@@ -18,6 +18,7 @@ const HomeStack = () => {
         component={HomeScreen}
         options={{
           title: "PakGram logo",
+          headerTintColor: "green",
         }}
       />
     </Stack.Navigator>
